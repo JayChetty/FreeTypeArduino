@@ -175,6 +175,12 @@ void loop() {
        case 16:
          Keyboard.print("u");
          break;
+       case 20:
+         Keyboard.print("K");
+         break;         
+       case 18:
+         Keyboard.print("F");
+         break;  
          
        // CAPS  
        case 17:
@@ -392,7 +398,7 @@ void loop() {
    if ((trigButtonState4 == HIGH) && ((oldTrigButtonState4 == LOW) || holding4)){
        switch(leftValue) {
        case 0:
-         Keyboard.print(",");
+         Keyboard.print("'");
          break;
        case 1:
          Keyboard.print("d");
@@ -454,7 +460,7 @@ void loop() {
         break;
         
       case 28:  
-         Keyboard.print("/");
+         Keyboard.print("=");
         break;          
     }
    }
